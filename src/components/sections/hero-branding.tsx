@@ -60,7 +60,7 @@ const HeroBranding = () => {
           {/* Main Headline */}
         <div className="flex flex-col items-center gap-0.5 px-2">
         <div className="relative">
-            <h1 className="text-[16x] md:text-[19px] font-extrabold leading-tight tracking-tight flex items-center justify-center gap-x-2 flex-wrap font-poppins">
+            <h1 className="text-[16.5x] md:text-[19.5px] font-extrabold leading-tight tracking-tight flex items-center justify-center gap-x-2 flex-wrap font-poppins">
             <span className="text-[#393939]">Unlock</span>
             <span className="text-[#c53627]">Kylie Cosmetics Rewards</span>
             <div className="flex items-center -ml-1">
@@ -83,5 +83,6 @@ const HeroBranding = () => {
 };
 
 export default HeroBranding;
+
 
 
