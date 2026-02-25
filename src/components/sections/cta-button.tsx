@@ -10,7 +10,7 @@ import { Star } from 'lucide-react';
  * including a shimmering hover effect, star icons, and a pulsing bottom glow.
  */
 export default function CTAButton() {
-  const url = "https://gloffers.org/aff_c?offer_id=317&aff_id=44723&source=Target";
+  const url = "https://gloffers.org/aff_c?offer_id=178&aff_id=44723&source=KyCos";
 
   const handleClick = (e: React.MouseEvent) => {
     // For Orchids preview environment
@@ -26,7 +26,7 @@ export default function CTAButton() {
         target="_blank"
         rel="noopener noreferrer"
         onClick={handleClick}
-        className="group relative w-[220px] sm:w-full h-[42px] sm:h-[54px] bg-[#cc0000] hover:bg-[#cc0000] text-white rounded-full flex items-center justify-center gap-2 shadow-[0_4px_15px_rgba(0,36,204,0.3)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] overflow-hidden no-underline"
+        className="group relative w-[220px] sm:w-full h-[42px] sm:h-[54px] bg-[#efd7e5] hover:bg-[#efd7e5] text-white rounded-full flex items-center justify-center gap-2 shadow-[0_4px_15px_rgba(0,36,204,0.3)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] overflow-hidden no-underline"
       >
         {/* Shine Animation Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/25 to-transparent -left-full group-hover:animate-shine pointer-events-none" />
@@ -37,7 +37,7 @@ export default function CTAButton() {
             style={{ filter: 'drop-shadow(0 0 2px rgba(250, 204, 21))' }}
           />
 
-          <span className="text-[12px] sm:text-[14px] font-bold sm:font-white uppercase text-white tracking-[0.08em] flex items-center gap-1.5 sm:gap-2">
+          <span className="text-[12px] sm:text-[14px] font-bold sm:font-white uppercase text-[#393939] tracking-[0.08em] flex items-center gap-1.5 sm:gap-2">
             START REVIEW
           </span>
 
